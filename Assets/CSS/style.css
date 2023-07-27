@@ -1,0 +1,77 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Handjet', cursive; 
+}
+
+.background {
+    background-image: url("/Assets/weather.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+    
+
+#weatherIcon {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#date {
+    font-size: 50px;
+}
+
+.forecast {
+    font-size: 40px;
+    color:rgb(145, 40, 40);
+    margin-left: 20px;
+}
+
+#main {
+    display: grid;
+    place-items: center;
+}
+
+#title {
+    margin: 20px 20px;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+}
+
+#storm {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#cityInput {
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Handjet', cursive;
+}
+
+input::placeholder {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Handjet', cursive;
+  }
+
+button {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Handjet', cursive;
+  }
+ 
+#cityInfo {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+}
